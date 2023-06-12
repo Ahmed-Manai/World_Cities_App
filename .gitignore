@@ -1,0 +1,12 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+
+# Ignore directories
+bin/
+obj/
+
+# Dependency directories
+/node_modules
+/dist
+/.ng
