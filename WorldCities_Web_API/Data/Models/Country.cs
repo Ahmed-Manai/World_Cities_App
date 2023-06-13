@@ -20,17 +20,17 @@ namespace webapi.Data.Models
         /// <summary>
         /// 
         /// </summary>
-        public string Name { get; set; } = null;
+        public string Name { get; set; } = null!;
         /// <summary>
         /// 
         /// </summary>
-        public string ISO2 { get; set; } = null;
+        public string ISO2 { get; set; } = null!;
         /// <summary>
         /// 
         /// </summary>
-        public string ISO3 { get; set; } = null;
+        public string ISO3 { get; set; } = null!;
 
-        public ICollection<City>? cities { get; set; } = null!;
+        public ICollection<City>? Cities { get; set; } = null!;
 
 
         #endregion
