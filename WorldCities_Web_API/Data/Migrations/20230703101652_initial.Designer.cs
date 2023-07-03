@@ -11,7 +11,7 @@ using WorldCities_Web_API.Data;
 namespace WorldCities_Web_API.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230702161308_initial")]
+    [Migration("20230703101652_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
