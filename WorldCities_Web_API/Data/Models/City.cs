@@ -33,7 +33,7 @@ namespace webapi.Data.Models
         /// <summary>
         /// 
         /// </summary>
-        [Column(TypeName="deciaml(7,4)")]
+        [Column(TypeName="decimal(7,4)")]
         public decimal Lon { get; set; }
 
         /// <summary>
