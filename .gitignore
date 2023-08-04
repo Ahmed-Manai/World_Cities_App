@@ -5,6 +5,7 @@
 # Ignore directories
 bin/
 obj/
+Migrations/
 
 # Dependency directories
 /node_modules
