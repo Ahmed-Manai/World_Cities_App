@@ -4,7 +4,7 @@ const PROXY_CONFIG = [
       "api/",
     ],
     target: "https://localhost:40443",
-    secure: false
+    secure: false,
   }
 ]
 

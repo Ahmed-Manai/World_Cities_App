@@ -1,5 +1,5 @@
-World Cities App
-
+################## World Cities API ##################
+######################################################
 
 ## Secrets Strorage 
 (Manage User Secrets VS)
@@ -35,3 +35,9 @@ WITH DEFAULT_SCHEMA = DBtempWC
 -- not working 
 USE DBtempWC
 ALTER ROLE db_owner ADD MEMBER tempWC
+
+
+################## World Cities FrontEnd ################## 
+###########################################################
+
+ng generate component Cities --module=app --skip-tests
