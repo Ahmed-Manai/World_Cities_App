@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { CitiesComponent } from './cities/cities.component';
+import { AngularMaterialModule } from './angular-material.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { CitiesComponent } from './cities/cities.component';
   ],
   imports: [
     BrowserModule, HttpClientModule, AppRoutingModule, BrowserAnimationsModule,
-    MatButtonModule, MatIconModule, MatToolbarModule
+    AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
