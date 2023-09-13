@@ -1,18 +1,23 @@
-################## World Cities API ##################
-######################################################
+World Cities API 
+============================================================
 
 ## Secrets Strorage 
 (Manage User Secrets VS)
 secrets.json file
 
-## initial migration 
+## Entity FrameWork
+
+### initial migration 
+
 dotnet tool install --global dotnet-ef
 dotnet ef migrations add "Initial" -o "Data/Migrations"
 dotnet ef database update
-# to undo creation 
+
+### to undo creation 
 ef migrations remove
 
-# to import Cities and Countries use api/Seed/Import endpoint 
+### to import Cities and Countries 
+use api/Seed/Import endpoint 
 
 ## Package for xlsx files
 Install-Package EPPlus -Version 4.5.3.3
@@ -37,7 +42,10 @@ USE DBtempWC
 ALTER ROLE db_owner ADD MEMBER tempWC
 
 
-################## World Cities FrontEnd ################## 
-###########################################################
+World Cities FrontEnd 
+============================================================
 
 ng generate component Cities --module=app --skip-tests
+
+
+# Server-Side Application
