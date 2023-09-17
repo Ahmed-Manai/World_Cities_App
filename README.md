@@ -47,5 +47,7 @@ World Cities FrontEnd
 
 ng generate component Cities --module=app --skip-tests
 
-
+# Client-Side Application 
 # Server-Side Application
+# Sorting
+
